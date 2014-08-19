@@ -89,7 +89,7 @@ EDXAPP_BOOK_URL: ''
 # as the lms (it's sent in the request)
 EDXAPP_SITE_NAME: 'localhost'
 EDXAPP_LMS_SITE_NAME: 'http://www.muddx.com'
-EDXAPP_CMS_SITE_NAME: 'http://studio.muddx.com'
+EDXAPP_CMS_SITE_NAME: 'localhost'
 EDXAPP_MEDIA_URL:  ''
 EDXAPP_ANALYTICS_SERVER_URL:  ''
 EDXAPP_FEEDBACK_SUBMISSION_EMAIL: ''
