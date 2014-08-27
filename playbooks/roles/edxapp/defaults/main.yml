@@ -84,8 +84,12 @@ EDXAPP_CELERY_USER: 'celery'
 EDXAPP_CELERY_PASSWORD: 'celery'
 EDXAPP_CELERY_BROKER_VHOST: ""
 
+
 EDXAPP_VIDEO_CDN_URLS:
   EXAMPLE_COUNTRY_CODE: "http://example.com/edx/video?s3_url="
+
+EDXAPP_PLATFORM_NAME: 'MuddX'
+
 
 EDXAPP_PLATFORM_NAME: 'Your Platform Name Here'
 
@@ -121,13 +125,23 @@ EDXAPP_BOOK_URL: ""
 # This needs to be set to localhost
 # if xqueue is run on the same server
 # as the lms (it's sent in the request)
-EDXAPP_SITE_NAME: 'localhost'
-EDXAPP_LMS_SITE_NAME: "{{ EDXAPP_SITE_NAME }}"
-EDXAPP_CMS_SITE_NAME: 'localhost'
-EDXAPP_MEDIA_URL:  ""
-EDXAPP_ANALYTICS_SERVER_URL:  ""
-EDXAPP_FEEDBACK_SUBMISSION_EMAIL: ""
-EDXAPP_CELERY_BROKER_HOSTNAME: ""
+
+
+
+
+
+
+
+
+
+EDXAPP_SITE_NAME: 'www.muddx.com'
+EDXAPP_LMS_SITE_NAME: 'www.muddx.com'
+EDXAPP_CMS_SITE_NAME: 'www.muddx.com'
+EDXAPP_MEDIA_URL:  ''
+EDXAPP_ANALYTICS_SERVER_URL:  ''
+EDXAPP_FEEDBACK_SUBMISSION_EMAIL: ''
+EDXAPP_CELERY_BROKER_HOSTNAME: ''
+
 EDXAPP_LOGGING_ENV:  'sandbox'
 
 EDXAPP_SYSLOG_SERVER: ""
@@ -145,17 +159,27 @@ EDXAPP_LANG: 'en_US.UTF-8'
 EDXAPP_LANGUAGE_CODE : 'en'
 EDXAPP_TIME_ZONE: 'America/New_York'
 
-EDXAPP_TECH_SUPPORT_EMAIL: 'technical@example.com'
-EDXAPP_CONTACT_EMAIL: 'info@example.com'
-EDXAPP_BUGS_EMAIL: 'bugs@example.com'
-EDXAPP_DEFAULT_FROM_EMAIL: 'registration@example.com'
+
+
+
+
+
 EDXAPP_DEFAULT_FEEDBACK_EMAIL: 'feedback@example.com'
 EDXAPP_DEFAULT_SERVER_EMAIL: 'devops@example.com'
 EDXAPP_BULK_EMAIL_DEFAULT_FROM_EMAIL: 'no-reply@example.com'
-EDXAPP_UNIVERSITY_EMAIL: 'university@example.com'
-EDXAPP_PRESS_EMAIL: 'press@example.com'
-EDXAPP_PLATFORM_TWITTER_ACCOUNT: '@YourPlatformTwitterAccount'
-EDXAPP_PLATFORM_FACEBOOK_ACCOUNT: 'http://www.facebook.com/YourPlatformFacebookAccount'
+
+
+
+
+
+EDXAPP_TECH_SUPPORT_EMAIL: 'technical@muddx.com'
+EDXAPP_CONTACT_EMAIL: 'info@muddx.com'
+EDXAPP_BUGS_EMAIL: 'bugs@muddx.com'
+EDXAPP_DEFAULT_FROM_EMAIL: 'registration2@muddx.com'
+EDXAPP_DEFAULT_FEEDBACK_EMAIL: 'feedback@muddx.com'
+EDXAPP_DEFAULT_SERVER_EMAIL: 'devops@muddx.com'
+EDXAPP_BULK_EMAIL_DEFAULT_FROM_EMAIL: 'no-reply@muddx.com'
+
 
 EDXAPP_ENV_EXTRA: {}
 EDXAPP_AUTH_EXTRA: {}
